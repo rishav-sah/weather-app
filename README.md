@@ -16,7 +16,8 @@
   - `fetchWeather` which is using `createAsyncThunk` to create an asynchronous action to call the API's (`api.js`) is responsible for fetching weather data, forecast data, and a city image URL based on the provided location and unit.
   - The `setUnit` reducer is defined within the slice to update the unit value in the state.
   - we initialize the states and retrieve weatherData, forecastData, cityImageUrl, unit, and status data throughout our application.
-  - Note: The present complexity of UI is small that's why we're relying on one slice, as our application scales we may define different slices to reduce complexity.
+
+  ## Note: The present complexity of UI is small that's why we're relying on one slice, as our application scales we may define different slices to reduce complexity. Also, In case of missing data from the API, I am considering static data to achieve the design as per the requirement.
 
 # UI Screenshot
 
